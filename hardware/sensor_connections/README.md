@@ -15,7 +15,7 @@ The project monitors:
 
 ---
 
-## Sensor-to-ESP32 Connection
+# Sensor-to-ESP32 Connection
 
 | Sensor              | Parameter    | ESP32 GPIO        | Power      | Output            |
 | ------------------- | ------------ | ----------------- | ---------- | ----------------- |

@@ -1,1 +1,104 @@
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Smart RO Water Monitoring</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Smart RO Water Quality Monitoring</h1>
+        <p>IoT-Based Double-Filter RO System</p>
+    </header>
+
+    <main>
+
+        <section class="status-section">
+
+            <h2>Water Quality Status</h2>
+
+            <div id="status" class="status">
+                Waiting for data...
+            </div>
+
+            <p id="timestamp">
+                Last updated: --
+            </p>
+
+        </section>
+
+
+        <section class="sensor-grid">
+
+            <div class="sensor-card">
+                <h3>pH</h3>
+                <p id="ph">--</p>
+            </div>
+
+            <div class="sensor-card">
+                <h3>TDS</h3>
+                <p>
+                    <span id="tds">--</span> ppm
+                </p>
+            </div>
+
+            <div class="sensor-card">
+                <h3>Turbidity</h3>
+                <p>
+                    <span id="turbidity">--</span> NTU
+                </p>
+            </div>
+
+            <div class="sensor-card">
+                <h3>Temperature</h3>
+                <p>
+                    <span id="temperature">--</span> °C
+                </p>
+            </div>
+
+            <div class="sensor-card">
+                <h3>Conductivity</h3>
+                <p>
+                    <span id="conductivity">--</span> µS/cm
+                </p>
+            </div>
+
+        </section>
+
+
+        <section class="alert-section">
+
+            <h2>Alerts</h2>
+
+            <div id="alerts">
+                No alerts.
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            Final Year Project | Team Size: 3
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+```

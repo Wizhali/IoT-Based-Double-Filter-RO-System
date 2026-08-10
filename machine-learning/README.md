@@ -158,3 +158,76 @@ machine-learning/
 ├── train_model.py
 └── predict.py
 ```
+
+
+
+Model Training
+
+## 🤖 RNN Model
+
+The project uses a **Recurrent Neural Network (RNN)** model for predictive analysis based on water-quality parameters.
+
+### Model Input
+
+The RNN receives water-quality features such as:
+
+```text
+pH
+TDS
+Turbidity
+Temperature
+Conductivity
+```
+
+The input data is preprocessed and reshaped into the format required by the recurrent neural network.
+
+### RNN Workflow
+
+```text
+Water Quality Dataset
+        ↓
+Data Preprocessing
+        ↓
+Feature Selection
+        ↓
+Normalization / Scaling
+        ↓
+Reshape Data for RNN
+        ↓
+RNN Model
+        ↓
+Model Training
+        ↓
+Model Evaluation
+        ↓
+Prediction
+```
+
+### RNN Architecture
+
+The architecture should be documented according to the actual implementation used in the project.
+
+Typical components may include:
+
+```text
+Input Layer
+     ↓
+RNN Layer
+     ↓
+Dense Layer
+     ↓
+Output Layer
+```
+
+> The exact number of RNN units, layers, activation functions, optimizer, epochs, batch size, and output configuration should match the actual model implementation.
+
+### Prediction
+
+The trained RNN model analyzes the processed water-quality parameters and produces the corresponding prediction.
+
+The prediction output is then used by the application for further analysis and display.
+
+### Important Note
+
+The RNN prediction is developed for academic and research purposes and should not be considered a medical diagnosis.
+

@@ -23,13 +23,7 @@ ENV/
 # Machine Learning
 # ==============================
 
-*.h5
-*.keras
-*.pkl
-*.joblib
 
-machine-learning/model/
-models/
 
 # ==============================
 # Dataset temporary files

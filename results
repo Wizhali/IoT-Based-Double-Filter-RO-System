@@ -1,1 +1,52 @@
 
+## 📊 Project Results
+
+The developed **IoT-Based Double-Filter RO System** successfully integrates water-quality sensing, ESP32-based IoT communication, Flask backend processing, a web dashboard, and RNN-based water-quality classification.
+
+### 🔹 Key Results
+
+* Successfully monitored **pH, TDS, turbidity, and temperature** parameters.
+* Successfully integrated **ESP32 with the Flask backend through Wi-Fi**.
+* Developed a web dashboard for displaying water-quality information and prediction results.
+* Trained an **RNN-based binary classification model** using **100,800 water-quality samples**.
+* The dataset was divided into **80,640 training samples** and **20,160 testing samples**.
+* The RNN model achieved the following test results:
+
+| Metric    |      Result |
+| --------- | ----------: |
+| Accuracy  | **100.00%** |
+| Precision | **100.00%** |
+| Recall    |  **99.99%** |
+| F1-Score  | **100.00%** |
+| ROC-AUC   |  **1.0000** |
+
+### 🔹 Confusion Matrix
+
+```text
+[[6048,    0],
+ [   1, 14111]]
+```
+
+The model correctly classified **20,159 out of 20,160 test samples**, with only one misclassified sample.
+
+### 🔹 Overall Outcome
+
+The project demonstrates an end-to-end **IoT + Machine Learning + Web Application** architecture for water-quality monitoring and Safe/Unsafe classification.
+
+```text
+Water Sensors
+     ↓
+ESP32
+     ↓
+Wi-Fi
+     ↓
+Flask Backend
+     ↓
+RNN Model
+     ↓
+Safe / Unsafe Prediction
+     ↓
+Web Dashboard
+```
+
+> **Note:** The reported ML metrics are based on the reconstructed dataset and RNN implementation used in this repository. They represent model evaluation results and should not be interpreted as certified laboratory water-quality measurements.
